@@ -1,0 +1,29 @@
+ body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-image: url(a.jpg); /* Specify the path to your background image */
+        background-size: cover; /* Cover the entire background */
+        background-position: center; /* Center the background image */
+    }
+    #header-gif {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .choices {
+        margin-top: 20px;
+    }
+    .choice {
+        display: inline-block;
+        margin: 0 20px;
+        padding: 20px;
+        border: 2px solid #333;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .choice:hover {
+        background-color: #d3f342;
+}
